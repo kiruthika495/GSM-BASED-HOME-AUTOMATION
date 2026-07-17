@@ -4,9 +4,8 @@
 
 The **GSM Based Home Automation System** is an embedded systems project developed using the **LPC2129 ARM7 Microcontroller** and a **GSM module (SIM800C)** to remotely control home appliances through SMS commands. Unlike Wi-Fi-based automation systems, this project operates entirely over the GSM network, allowing users to control appliances from anywhere with mobile network coverage.
 
-The GSM module communicates with the LPC2148 via **UART serial communication**. When a user sends predefined SMS commands from a mobile phone, the microcontroller reads the received message, identifies the requested operation, and controls the connected appliances accordingly. The current appliance status and received commands are also displayed on a **16×2 LCD** for user convenience.
+The GSM module communicates with the LPC2129 via **UART serial communication**. When a user sends predefined SMS commands from a mobile phone, the microcontroller reads the received message, identifies the requested operation, and controls the connected appliances accordingly. The current appliance status and received commands are also displayed on a **16×2 LCD** for user convenience.
 
-The project demonstrates the practical implementation of **Embedded C**, **UART communication**, **GSM interfacing**, **GPIO control**, **LCD interfacing**, and **motor driver control**, making it an excellent learning project for embedded systems and home automation.
 
 ---
 

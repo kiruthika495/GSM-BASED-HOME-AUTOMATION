@@ -26,7 +26,7 @@ delay_millisecond(100);
 
 void GSM_SEND_SMS(void )
 {
-UART0_STR("AT+CMGS=\"+918825469141\"\r\n");
+UART0_STR("AT+CMGS=\"+918825469141\"\r\n");       //Receivers phone no
 delay_millisecond(300);
 
 UART0_STR("GSM TEST");
